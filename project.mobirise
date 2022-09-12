@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -47,21 +47,23 @@
     "versionPublish": "5.5.8",
     "imageResize": true,
     "favicon": false,
-    "mbrsiteDomain": "ws644vfnys",
-    "robotsSwitcher": false,
+    "mbrsiteDomain": "xkors6onqv",
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5EKBHD3WGL\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5EKBHD3WGL');\n</script>\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "GitHub Page of ApplyPedia\nJoin ApplyPedia and Associations' Expert Department Developing Project",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -1008,10 +1010,11 @@
         }
       ]
     },
-    "page1.html": {
+    "farsi.html": {
       "settings": {
-        "title": "Persian",
-        "order": 1
+        "title": "fa",
+        "order": 1,
+        "meta_descr": "صفحه فارسی زبان گیت هاب اپلای پدیا\nانتشار اخبار و اطلاعات مرتبط با پروژه توسعه دپارتمان های تخصصی - اپلای پدیا "
       },
       "components": [
         {
